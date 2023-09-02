@@ -1,0 +1,85 @@
+body{
+margin: 0px;
+
+background: linear-gradient(to right, yellow, red, green, blue, purple);
+background-repeat: no-repeat;
+background-attachment: fixed;
+
+
+
+}
+
+#box{
+
+    border: 1px solid;
+    height: 50px;
+    width: 250px;
+    font-size: 100%;
+    text-align: center;
+
+    margin-right: auto;
+    margin-left: auto;
+
+    position: sticky;
+    top: 0px;
+    z-index: 3;
+    cursor: pointer;
+    
+
+    float: left;
+}
+p{
+   word-wrap: break-word;
+}
+button{
+    background-color: greenyellow;
+}
+button:hover{
+    color: azure;
+}
+button:active{
+    
+    background-color: black;
+}
+h2{
+    margin-top:3%
+}
+img{
+    float:right ;
+    margin: 1%;
+}
+#menue{
+    border: 1px solid;
+    height: 48.5px;
+    width: 100%;
+
+    position: absolute;
+
+    background-color: greenyellow;
+
+    position: sticky;
+    top: 0px;
+z-index: 1;
+
+}
+#gameBoard{
+
+  border: 3px solid;  
+
+
+}
+#Snake{
+text-align: center;
+
+}
+#retry{
+
+font-family: "permant Marker";
+font-size: 22px;
+width: 100px;
+height: 50px;
+border: 4px solid;
+cursor: pointer;
+
+
+}
