@@ -28,8 +28,18 @@ gameStart();
 function gameStart(){};
 function nextTick(){};
 function clearBoard(){};
-function createFood(){};
-function drawFood(){};
-function gameStart(){};
-function gameStart(){};
-function gameStart(){};
+function createFood(){
+function randomFood(min,max){
+const ranNum = math.round((manth.random() * (min - max) + min) / unitSize)*unitSize;
+return ranNum
+}
+foodX = randomFood(0, gameWidth - unitSize);
+foodY = randomFood(0, gameWidth - unitSize);
+};
+
+function moveSnake(){};
+function drawSnake(){};
+function changeDirection(){};
+function checkGameover(){};
+function displayGameover(){};
+function resetgame(){};

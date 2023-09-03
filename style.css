@@ -1,19 +1,27 @@
 body{
 margin: 0px;
 
-background: linear-gradient(to right, yellow, red, green, blue, purple);
+background: lightcyan;
 background-repeat: no-repeat;
 background-attachment: fixed;
 
 
 
 }
+h1{
+    font-family: sans-serif;
+    margin-left: 5px;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 5px;
+}
 
 #box{
 
     border: 1px solid;
     height: 50px;
-    width: 250px;
+    width: clamp(10%, 20%, 250%);
     font-size: 100%;
     text-align: center;
 
@@ -30,9 +38,12 @@ background-attachment: fixed;
 }
 p{
    word-wrap: break-word;
+
+   font-family: 'Times New Roman', Times, serif;
+   margin-left: 5px;
 }
 button{
-    background-color: greenyellow;
+    background-color: lightblue;
 }
 button:hover{
     color: azure;
@@ -47,21 +58,10 @@ h2{
 img{
     float:right ;
     margin: 1%;
+    height: 300px;
+    width: 200px;
 }
-#menue{
-    border: 1px solid;
-    height: 48.5px;
-    width: 100%;
 
-    position: absolute;
-
-    background-color: greenyellow;
-
-    position: sticky;
-    top: 0px;
-z-index: 1;
-
-}
 #gameBoard{
 
   border: 3px solid;  
